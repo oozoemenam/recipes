@@ -10,6 +10,7 @@ import { HeaderComponent } from './core/components/header/header.component';
 import { HomeComponent } from './features/home/home.component';
 import { RecipeListComponent } from './features/recipes/components/recipe-list/recipe-list.component';
 import { SharedModule } from './shared/shared.module';
+import { RecipesFilterComponent } from './features/recipes/components/recipes-filter/recipes-filter.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SharedModule } from './shared/shared.module';
     RecipeListComponent,
     HeaderComponent,
     HomeComponent,
+    RecipesFilterComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,7 @@
   <div>{{ recipes.length }} Results</div>
   <p-dataView
     #dv
-    [value]="recipes"
+    [value]="filteredRecipes"
     [paginator]="true"
     [rows]="9"
     filterBy="name"
